@@ -1,0 +1,96 @@
+
+    #frontbox {
+      height: fit-content;
+      width: fit-content;
+      animation-name: front_animation;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+      position: relative;
+      border-radius: 5px;
+
+    }
+
+    @keyframes front_animation {
+      0% {
+        background-image: url("/animation/A1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      25% {
+        background-image: url("/animation/A2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      50% {
+        background-image: url("/animation/A3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      75% {
+        background-image: url("/animation/A4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      100% {
+        background-image: url("/animation/A1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+      }
+
+    }
+
+    .head {
+      font-size: 60px;
+      background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjQ2Mi1uLTEzMC10ZXh0dXJlaWRlYV8xLmpwZw.jpg?s=Ap9Wt2FdU0d8BXrBxl9SXolNCCuIJTRiixrSHx8J_Xo");
+      color: yellow;
+      background-attachment: relative;
+      background-size: 100%, 100%;
+    }
+
+    .subheading {
+      color: rgb(230, 248, 33);
+      background-color: rgb(22, 22, 21);
+      border-radius: 10px;
+      padding: 5px;
+    }
+
+    .address {
+      background-color: rgb(212, 237, 237);
+      font-size: 20px;
+    }
+
+    .payment {
+      color: rgb(72, 20, 241);
+    }
+
+    table {
+      width: 80%;
+    }
+
+    .courses {
+      width: 80%;
+    }
+
+
+    .foot {
+      font-size: 60px;
+      background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjQ2Mi1uLTEzMC10ZXh0dXJlaWRlYV8xLmpwZw.jpg?s=Ap9Wt2FdU0d8BXrBxl9SXolNCCuIJTRiixrSHx8J_Xo");
+      background-attachment: relative;
+      background-size: 100%, 100%;
+      font-size: 20px;
+    }
+
+    .b_image {
+      border-radius: 10px;
+      border-color: black;
+      border-style: outset;
+    }
+    .g_image{
+      margin:10px;
+    }
+  
