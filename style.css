@@ -12,31 +12,31 @@
 
     @keyframes front_animation {
       0% {
-        background-image: url("animation/A1.jpg");
+        background-image: url("A1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
       }
 
       25% {
-        background-image: url("animation/A2.jpg");
+        background-image: url("A2.jpg");
         background-size: cover;
         background-repeat: no-repeat;
       }
 
       50% {
-        background-image: url("animation/A3.jpg");
+        background-image: url("A3.jpg");
         background-size: cover;
         background-repeat: no-repeat;
       }
 
       75% {
-        background-image: url("animation/A4.jpg");
+        background-image: url("A4.jpg");
         background-size: cover;
         background-repeat: no-repeat;
       }
 
       100% {
-        background-image: url("animation/A1.jpg");
+        background-image: url("A1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
 
